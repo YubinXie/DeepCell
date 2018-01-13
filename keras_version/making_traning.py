@@ -16,8 +16,8 @@ max_training_examples = 10000000
 window_size_x = 30
 window_size_y = 30
 
-direc_name = '/home/DeepCell/training_data/3T3'
-file_name_save = os.path.join('/home/DeepCell/training_data_npz/', '3T3_all_61x61.npz')
+direc_name = '/home/ubuntu/DeepCell/training_data/3T3'
+file_name_save = os.path.join('/home/ubuntu/DeepCell/training_data_npz/', '3T3_all_61x61.npz')
 training_direcs = ["set1", "set2", "set3"] 
 channel_names = ["phase", "nuclear"]
 

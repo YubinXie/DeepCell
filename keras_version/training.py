@@ -17,8 +17,8 @@ n_epoch = 25
 dataset = "3T3_all_61x61"
 expt = "bn_feature_net_61x61"
 
-direc_save = "/home/DeepCell/trained_networks_new/"
-direc_data = "/home//DeepCell/training_data_npz/"
+direc_save = "/home/ubuntu/DeepCell/trained_networks_new/"
+direc_data = "/home/ubuntu/DeepCell/training_data_npz/"
 
 optimizer = SGD(lr=0.01, decay=1e-6, momentum=0.9, nesterov=True)
 lr_sched = rate_scheduler(lr = 0.01, decay = 0.95)
